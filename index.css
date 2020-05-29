@@ -94,12 +94,13 @@ visibility:"hidden";
 }
 #chicken,#beef,#sushi{
 border: 2px solid black;
-width: 200%;
+width: 300%;
 height:30%;
 background-color:white;
-font-size:40px;
+font-size:20px;
 position:relative;
 left:-600%;
+  text-align:center;
 }
 #chicken:hover,#beef:hover,#sushi:hover{
 background-color:LightGrey;
