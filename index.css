@@ -71,16 +71,37 @@ margin:5px 0 20px 0;
     border: 2px solid #fff;
     background-color: #f6b319;
     color: #951c49;
-  }
+}
   #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
   }
+#menu{
+visibility:"visible";
 }
-button{
+}
+
+#menu{
+width:40px;
+height:30px;
 position:absolute;
-bottom:35px;
-right:20px;
+top:5%;
+right:3%;
+float:right;
+visibility:"hidden";
+}
+#chicken,#beef,#sushi{
+border: 2px solid black;
+width: 200%;
+height:30%;
+background-color:white;
+font-size:40px;
+position:relative;
+left:-600%;
+}
+#chicken:hover,#beef:hover,#sushi:hover{
+background-color:LightGrey;
+
 }
