@@ -99,13 +99,13 @@ display: inline-block;
 
 @media (max-width:768px) {
 .dropbtn {
-  background-color: white;
+  background-color: lightgray;
   color: black;
   width:40px;
   height:40px;
   padding: 16px;
   font-size: 30px;
-  border: 1px solid black;
+  border: none;
 }
 
 .dropdown {
