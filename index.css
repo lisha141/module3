@@ -101,6 +101,8 @@ display: inline-block;
 .dropbtn {
   background-color: white;
   color: black;
+  width:100px;
+  height:100px;
   padding: 16px;
   font-size: 30px;
   border: none;
